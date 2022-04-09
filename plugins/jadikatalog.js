@@ -26,7 +26,7 @@ let handler  = async (m, { conn, text, usedPrefix }) => {
 	    "description": `${text2}`, 
 	    "currencyCode": "IDR", 
             "priceAmount": "50000", 
-	    "retailerId": "games-wabot", 
+	    "retailerId": "sylbot-md", 
 	    "productImageCount": 1 
 	  }, 
 	  "businessOwnerJid": conn.user.jid
