@@ -19,7 +19,7 @@ global.Owner = {
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: true // if true this number will send if user use command /owner or /creator
   },
-  '62857980707940': {
+  '6281292682484': {
     isReport: true // if true this number will send if user use command /report or /join
   },
   '12289013884': {} // ignore if you don't want anything, like name dll
@@ -53,7 +53,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'syll'
-global.author = 'sylbot-md | created: sylvia\njangan spam bot , kasih jeda 5 detik'
+global.author = 'sylbot-md\n note.jangan spam bot , kasih jeda 5 detik'
 
 global.multiplier = 2000 // The higher, The harder levelup
 
