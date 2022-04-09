@@ -1,5 +1,5 @@
 {
-  "name": "xiabot",
+  "name": "sylbot-md",
   "version": "0.9.8",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
@@ -26,16 +26,16 @@
     "Games-wabot",
     "wabot-aq"
   ],
-  "homepage": "https://github.com/sylviaadrastea/games-wabo",
+  "homepage": "https://github.com/sylviaadrastea/sylbot-md",
   "author": {
     "name": "BochilGaming"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sylviaadrastea/games-wabo.git"
+    "url": "git+https://github.com/sylviaadrastea/sylbot-md.git"
   },
   "bugs": {
-    "url": "https://github.com/sylviaadrastea/games-wabo/issues"
+    "url": "https://github.com/sylviaadrastea/sylbot-md/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
