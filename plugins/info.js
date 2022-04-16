@@ -10,33 +10,34 @@ let handler  = async (m, { conn, usedPrefix }) => {
   await m.reply('Wait Kakak!!')
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
-╠═〘 ${package.name} 〙 ═
-╠➥ *Versi:* ${package.version}
-╠➥ *HomePage:* ${(package.homepage ? package.homepage.url || package.homepage : '[unknown github url]')}
-╠➥ *Issue:* ${package.bugs.url}
-╠➥ *Prefix:* ' ${usedPrefix} '
-╠➥ *Menu:* ${usedPrefix}menu
-╠➥ *Ping:* ${neww - old} *ms*
-╠➥ *Total user:* ${totalreg} *user*
-╠➥ *Uptime:* ${uptime}
-║
-║
-╠═ Request? ${package.bugs.url}
-║${readMore}
-╠═〘 SYARAT & KETENTUAN XIABOT 〙 ═
-╠➥ *KAMI TIDAK BERTANGGUNG*
-║   *JAWAB ATAS PENYALAH*
-║   *GUNAAN BOT*
-╠➥ *KAMI TIDAK BERTANGGUNG*
-║   *JAWAB ATAS KEBOCORAN DATA*
-║   *PRIBADI ANDA*
-╠➥ *KAMI AKAN MENYIMPAN DATA*
-║   *SEPERTI NOMER TELEPON*
-║   *ANDA DI DATABASE KAMI*
-║ 
-║ 
-╠═ ©2022 ${package.name}
-╠═〘 sylbot-md 〙 ═
+╭─「 ${package.name} 」 ═
+│ • Versi: ${package.version}
+│ • HomePage: ${(package.homepage ? package.homepage.url || package.homepage : '[unknown github url]')}
+│ • Issue: ${package.bugs.url}
+│ • Prefix: ' ${usedPrefix} '
+│ • Menu: ${usedPrefix}menu
+│ • Ping: ${neww - old} *ms*
+│ • Total user: ${totalreg} *user*
+│ • Uptime: ${uptime}
+│ 
+│ 
+│ • Request? ${package.bugs.url}
+│   ${readMore}
+
+╭─「 SYARAT & KETENTUAN SYLBOT-MD 」 ═
+│ • *KAMI TIDAK BERTANGGUNG*
+│ • *JAWAB ATAS PENYALAH*
+│ • *GUNAAN BOT*
+│ • *KAMI TIDAK BERTANGGUNG*
+│ • *JAWAB ATAS KEBOCORAN DATA*
+│ • *PRIBADI ANDA*
+│ • *KAMI AKAN MENYIMPAN DATA*
+│ • *SEPERTI NOMER TELEPON*
+│ • *ANDA DI DATABASE KAMI*
+│  
+│  
+│ • ©2022 ${package.name}
+│ •〘 sylbot-md 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
