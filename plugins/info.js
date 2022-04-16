@@ -22,7 +22,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
 │ 
 │ 
 │ • Request? ${package.bugs.url}
-│   ${readMore}
+│ • ${readMore}
+╰────
 
 ╭─「 SYARAT & KETENTUAN SYLBOT-MD 」 ═
 │ • *KAMI TIDAK BERTANGGUNG*
@@ -36,8 +37,9 @@ let handler  = async (m, { conn, usedPrefix }) => {
 │ • *ANDA DI DATABASE KAMI*
 │  
 │  
-│ • ©2022 ${package.name}
-│ •〘 sylbot-md 〙 ═
+│ • © ${package.name}
+│ • sylbot-md  ═
+╰────
 `.trim(), m)
 }
 handler.help = ['info']
