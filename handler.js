@@ -29,7 +29,7 @@ module.exports = {
             if (!isNumber(user.healt)) user.healt = 0
             if (!isNumber(user.level)) user.level = 0
             if (!isNumber(user.exp)) user.exp = 0
-            if (!isNumber(user.limit)) user.limit = 40
+            if (!isNumber(user.limit)) user.limit = 20
             if (!isNumber(user.lastclaim)) user.lastclaim = 0
             if (!isNumber(user.money)) user.money = 0
             
@@ -336,7 +336,7 @@ ${(global.linkGC).map((v, i) => '*Group ' + (i + 1) + '*\n' + v).join`\n\n`}
 
           m.isCommand = true
           let xp = 'exp' in plugin ? parseInt(plugin.exp) : 15 // XP Earning per command
-          if (xp > 99999999999) m.reply('Ngecit -_-') // Hehehe
+          if (xp > 99999999999) m.reply('Ngecit') // Hehehe
           else m.exp += xp
           if (!isPrems && plugin.limit && global.DATABASE._data.users[m.sender].limit < plugin.limit * 1) {
             this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
@@ -446,7 +446,7 @@ ${(global.linkGC).map((v, i) => '*Group ' + (i + 1) + '*\n' + v).join`\n\n`}
         if (chat.welcome) {
           let groupMetadata = await this.groupMetadata(jid)
           for (let user of participants) {
-            let pp = './src/avatar_contact 2.png'
+            let pp = './src/avatar_contact.png'
             try {
               pp = await this.getProfilePicture(user)
             } catch (e) {
