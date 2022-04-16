@@ -53,7 +53,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'syll'
-global.author = 'sylbot-md\nnote.jangan spam bot , kasih jeda 5 detik'
+global.author = 'sylbot-md\n_note)jangan spam bot , kasih jeda 5 detik_'
 
 global.multiplier = 2000 // The higher, The harder levelup
 
