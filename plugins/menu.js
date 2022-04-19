@@ -147,6 +147,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     conn.sendButton(m.chat,text.trim(), author,  pp,  [
   ['Ping',  '/ping'],
   ['Owner',  '/owner']
+  ['Rules',  '/rules']
 ], { quoted: m}).catch(_ => conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m)).catch(_ => conn.reply(m.chat, text.trim(), m))
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
