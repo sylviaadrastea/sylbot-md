@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
                 await delay(3000)
                 await conn.groupRemove(from, members_id)
                 }
-               await m.reply(m.chat, 'Done Kicall BY ALAN BOTZ', m)
+               await m.reply(m.chat, 'Done Kickall by Sylbot-Md', m)
 }
 handler.help = ['kickall']
 handler.tags = ['group']
